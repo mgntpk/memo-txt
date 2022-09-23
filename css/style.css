@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+main{
+    flex: 1;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header{
+    height: 20vh;
+}
+footer{
+    height: 5vh;
+}
+h1{
+    font-size: 7vh;
+}
+textarea{
+    resize: none;
+    width: 80vw;
+    height: 40vh;
+}
+p{
+    text-align: center;
+}
+button{
+    display: block;
+    width: 60vw;
+    height: 10vh;
+    font-size: min(9vw,10vh);
+    margin: 0 auto;
+    margin-top: 3vh;
+    line-height: 0;
+}
