@@ -1,8 +1,11 @@
+html{
+    height: 100%;
+}
 body{
     margin: 0;
     display: flex;
     flex-flow: column;
-    height: 100vh;
+    height: 100%;
 }
 main{
     flex: 1;
@@ -12,9 +15,6 @@ main{
 
 header{
     height: 20vh;
-}
-footer{
-    height: 5vh;
 }
 h1{
     font-size: 7vh;
