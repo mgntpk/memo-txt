@@ -11,7 +11,6 @@ function DownloadTxt(str) {
         seconds = String(d.getSeconds()).padStart(2,"0"),
         milliseconds = String(d.getMilliseconds()).padStart(3,"0");
     link.download = `memo${year}${month}${date}${hours}${minutes}${seconds}${milliseconds}.txt`;
-    console.log(`${year}/${month}/${date}/${hours}/${minutes}/${seconds}/${milliseconds}`);
     link.click();
     URL.revokeObjectURL(link.href);
 }
